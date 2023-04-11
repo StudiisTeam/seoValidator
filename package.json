@@ -1,0 +1,23 @@
+{
+  "name": "seo-validator",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.1",
+    "lodash": "^4.17.5",
+    "resolve-url-loader": "^2.3.1",
+    "snarkdown": "^1.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "yoastseo": "^1.57.0"
+  }
+}
